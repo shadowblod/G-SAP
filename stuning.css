@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+    font-size: 100px;
+    overflow: hidden;
+}
+h1>span{
+    display: inline-block;
+}
+
+h2{
+    font-size: 100px;
+    overflow: hidden;
+}

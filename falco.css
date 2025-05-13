@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.nav{
+    background-image: url("1326141.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    border: 4px solid blue;
+    box-shadow: 4px 4px 4px yellow;
+}
+button>a{
+    gap: 50px;
+    color:yellow;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+.box1{
+    position: absolute;
+    height: 500px;
+    border-radius: 30%;
+    width: 500px;
+    margin: 10px;
+    opacity: 1;
+    background-image: url("Wakanda_Pra_Sempre-removebg-preview.png");
+    background-size: cover;
+}
+
+
+button{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    left: 1300px;
+    background-color: thistle;
+    background: transparent;
+    box-shadow: 5px 4px 10px yellow;
+}
+.page2>h1{
+    position: relative;
+    font-size: 55px;
+    font-weight: 100;
+    color:blue;
+    left: 850px;
+    top: 40px;
+    font-family: fantasy;
+    z-index: 1;
+    
+}
+
+.nav>img{
+    height: 300px;
+    width: 550px;
+    background-size: cover;
+    position: absolute;
+    right: 1100px;
+
+}
+.png{
+    position: relative;
+    left: 900px;
+    top: 350px;
+    opacity: 1;
+}
+.page2{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image: url("_.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100%;
+    opacity:1;
+    border: 4px solid yellow;
+    
+}
+
+.page2>p{
+    position: relative;
+    left: 300px;
+    top: 400px;
+}
+.page2>img{
+    position: absolute;
+    right: 1650px;
+    height: 100%;
+    opacity: 0.5;
+}
+.img-cont>img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px;
+    position: relative;
+    top: 150px;
+    right: 350px;
+    
+}
+.img-cont>img:hover{
+    border: 5px blue solid;
+    box-shadow: 10px 4px 4px yellow;
+}
+.img-cont{
+
+    position: absolute;
+    right: 700px;
+    height: 100%;
+    width: 30%;
+    background-image: url("e60749a0-53b6-402b-b62e-14ffd13b4790.jpeg");
+    background-size: cover;
+    opacity: 1;
+}
+.imagecont1{
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+}
+
+
+.page3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("1300025.jpg");
+    background-size: cover;
+    position: relative;
+    top: 100%;
+    overflow: hidden;
+    opacity: 1;
+    border: 2px solid yellow;
+}
+.neon>img{
+    overflow: hidden;
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    left: 280px;
+    top: 150px;
+    opacity: 1;
+    border: 4px solid yellow;
+    border-radius: 30px;
+    animation: avi 2s 2.5 linear;
+
+}
+
+@keyframes avi{
+    0%{
+        transform: translate(180deg);
+    } 100%{
+        right: 40px;
+    }
+}
+.neon>img:hover{
+    box-shadow: 3px 4px yellow;
+    
+}
+ .page3 .neon>i{
+    position: absolute;
+    font-size: 120px;
+    color: blueviolet;
+    right: 700px;
+    top: 700px;
+    opacity: 0.4;
+}
+.page3 .neon>i:hover{
+    box-shadow: 4px 4px  yellow;
+    opacity: 1;
+    
+}
+
+ .page3 .neon>h1{
+    position: relative;
+    color: yellow;
+    z-index: 999;
+    bottom: 800px;
+    
+
+}
+.png>img{
+    position: relative;
+    right: 180px;
+    bottom: 160px;
+    border-radius: 50px;
+
+}
+.png2>img{
+    position: relative;
+    right: 580px;
+    bottom: 370px;
+}
+footer{
+    overflow: hidden;
+    height: 50%;
+    width: 100%;
+    background-image: url("Free\ Vector\ _\ Gradient\ black\ technology\ background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    top: 100%;
+    position: relative;
+    border: 3px solid blue;
+    
+}
+footer .link{
+    position: relative;
+    left: 1200px;
+    top: 5px;
+    font-size: 100px;
+    padding: 5px 20px;
+    color: yellow;
+}
+.link #one{
+    position: relative;
+    color: blue;
+    opacity: 0.2;
+}
+.link #one:hover{
+    opacity: 1;
+}
+.link #two{
+    position: relative;
+    color: yellowgreen;
+    opacity: 0.2;
+}
+.link #two:hover{
+    opacity: 1;
+}
+.link #three{
+    position: relative;
+    color: skyblue;
+    opacity: 0.2;
+}
+.link #three:hover{
+    opacity: 1;
+}
+.link #four{
+    position: relative;
+    color: pink;
+    opacity: 0.2;
+}
+.link #four:hover{
+    opacity: 1;
+}
+h2{
+    position: relative;
+    color: yellow;
+    font-family: fantasy;
+    top: 40px;
+    left: 200px;
+    font-size: 30px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.map #map1{
+    position: relative;
+    right: 900px;
+    bottom: 170px;
+    scale: 1.2;
+}
+h3{
+    position: relative;
+    color:yellow;
+    font-size: 30px;
+    white-space: nowrap;
+    left: -1200px;
+    top: 350px;
+    font-family: monospace;
+    
+}
+ .gif{
+    position: absolute;
+    height: 250px;
+    width: 400px;  
+    top: 150px;  
+    left: 560px;
+}
+video{
+    height: 280px;
+    width: 560px;
+    position: relative;
+    right: 50px;
+    border: 2px solid yellow;
+}
